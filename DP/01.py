@@ -16,5 +16,4 @@ def fun(n):
             m.append(fun(n - v) + 1)
     return min(m)
 
-
 print(fun(5))
